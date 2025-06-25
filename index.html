@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head-->
+
+<head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Ishida mei portfolio website.">
+    <meta name="author" content="Ishida mei">
+    <meta name="keywords"
+        content="website, Portfolio, github, html, css, webdev, googlefont, Iahida, Iahida mei, freehost, html project">
+    <meta name="google-site-verification" content="-_vGTZ4HnVXhPBb64aXsyhaFefMCewkbBGKhiUa_xZg">
+    <meta name="google-adsense-account" content="ca-pub-4361307844960518">
+    <!--Meta Tags End-->
+    <!--Title-->
+    <title>ポートフォリオウェブサイト</title>
+    <!--Title End-->
+    <!--CSS-->
+    <!--Main CSS-->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <!--Google Font CSS-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="assets/CSS/responsive.css">
+    <!--CSS End-->
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/IMG/favicon .png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/IMG/favicon.png">
+    <!--Favicon End-->
+</head>
+<!--Head End-->
+
+<body>
+    <!--Header Section-->
+    <header>
+
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <img src="assets/IMG/favicon .png" alt="logo">
+                    <h2> 石田<span>芽衣</span></h2>
+                    <button id="darkModeToggle" class="dark-togler"><i class="fa-solid fa-moon"></i></button>
+                </div>
+                <div class="nav_link" id="#nav_link">
+                    <a href="#"><span>Home</span></a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#work">Works</a>
+                    <a href="#main">Project</a>
+                    <a href="#contact">Contact</a>
+                    <div class="nav_toggler_cancel">
+                        <span class="material-symbols-outlined" onclick="nav_expand();">閉じる</span>
+                    </div>
+                </div>
+                <div class="nav_toggler">
+                    <span class="material-symbols-outlined" onclick="nav_expand();">メニュー</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Header Section End-->
+    <!--Main Section-->
+    <main>
+        <!--Home Section-->
+        <div class="main-content home">
+            <div id="particles-js"></div>
+            <div class="main-content-text">
+                <div class="main-content-text-text">
+                    <h1>
+                        <div class="main-content-text-text-text">こんにちは</div>
+                        <div class="main-content-text-text-text">私は<span>石田芽衣</span> です</div>
+                        <div class="main-content-text-text-text running-text">
+                            <span class="role"> </span>
+                        </div>
+                    </h1>
+                    <button class="btn main-btn" onclick="contact();">連絡する</button>
+                </div>
+                <!-- <div class="main-content-text-social">
+                    <a href="#"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"
+                            aria-hidden="true"></i></a>
+                    <a href="https://github.com/medicindev"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </div> -->
+            </div>
+            <div class="main-content-image">
+                <img src="assets/IMG/good.png" alt="main-logo">
+
+            </div>
+        </div>
+        <!--Home Section End-->
+        <!--About Section-->
+        <div class="main-about about" id="about">
+            <div class="main-contact-heading">
+                <h2>About  <span>me</span></h2>
+            </div>
+            <div class="main-about-inner">
+                <div class="main-about-image"><img src="assets/IMG/avatar0.jpg" alt="author"></div>
+                <div class="main-about-text">
+                    <p>システム開発の専門家として、これまでに多数のWebサービス・業務システム・アプリケーション開発に携わってまいりました。</p>
+                        <p>私は、フロントエンドからバックエンド、CMS構築、サーバーインフラまでワンストップで対応可能なフルスタックエンジニアです。</p>
+                        <p>お客様の課題解決を第一に考え、要件の整理からUI/UX設計、開発・保守まで一貫してサポートいたします。</p>
+                        <p> ご要望をしっかりとヒアリングし、わかりやすく丁寧なコミュニケーションを大切にしています。</p>
+                        <p>スピードよりも「正確で安心できる納品」を優先しており、品質を重視した開発を信条としています。</p>
+                         <p>サイトやシステムの目的・ターゲットに応じた最適な設計と提案が可能です。</p>
+
+                        <p>お客様と長く信頼関係を築けるよう、誠実かつ柔軟な姿勢で対応しております。</p>
+                    </p>
+                    <!-- <div class="main-about-text-inner">
+                        <p><span>年齢 :</span> 28 年</p>
+                        <p><span>大学 :</span> イェールNUSカレッジ</p>
+                        <p><span>メール :</span> medicin.dev@gmail.com</p>
+                        <p><span>場所 :</span>ベトナム </p>
+                    </div> -->
+                    <button class="btn"><a href="#" target="_blank"> <span>Resume</span></a></button>
+                </div>
+            </div>
+
+        </div>
+        <!--About Section End-->
+        <!--Skill Section-->
+        <div class="main-skill skills" id="skills">
+
+            <div class="main-Section-heading">
+                <h2>My skill set</h2>
+            </div>
+            <div class="main-skill-inner">
+                <div class="main-skill-skill">
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-html5" aria-hidden="true"></i>HTML</h2>
+                            <p>100%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-html"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-css3" aria-hidden="true"></i>CSS</h2>
+                            <p>100%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-css"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fab fa-js"></i>JS/TS</h2>
+                            <p>100%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-js"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-html5" aria-hidden="true"></i>WordPress</h2>
+                            <p>100%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-wordpress"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa-brands fa"></i>PHP</h2>
+                            <p>100%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-php"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-paint-brush" aria-hidden="true"></i>UI/UX Design</h2>
+                            <p>80%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-uiux"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-html5" aria-hidden="true"></i>Laravel</h2>
+                            <p>90%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-Laravel"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-html5" aria-hidden="true"></i>React.js</h2>
+                            <p>95%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-React"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-html5" aria-hidden="true"></i>Next.js</h2>
+                            <p>85%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-Next"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-html5" aria-hidden="true"></i>Vue.js</h2>
+                            <p>85%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-Vue"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-html5" aria-hidden="true"></i>Nuxt.js</h2>
+                            <p>85%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-Nuxt"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-html5" aria-hidden="true"></i>Ruby on Rails</h2>
+                            <p>80%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-Ruby"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa-solid fa-wind"></i>TAILWIND</h2>
+                            <p>100%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-tailwind"></div>
+                        </div>
+                    </div>
+                    <div class="main-skill-skill-div">
+                        <div class="main-skill-skill-div-head">
+                            <h2><i class="fa fa-html5" aria-hidden="true"></i>React Native</h2>
+                            <p>70%</p>
+                        </div>
+                        <div class="main-skill-skill-div-percent">
+                            <div class="main-skill-skill-div-percent-Native"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="skill-xyz">
+                    <div class="skilll-xyz-inner">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="skill-circle" cx="100" cy="100" r="80"></circle>
+                            <circle class="skill-circle-inner skill-xyz-ve" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="skill-xyz-percent">90%</div>
+                        <div class="skill-xyz-text ">バックエンド</div>
+                    </div>
+                    <div class="skilll-xyz-inner">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="skill-circle" cx="100" cy="100" r="80"></circle>
+                            <circle class="skill-circle-inner skill-xyz-wd" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="skill-xyz-percent">95%</div>
+                        <div class="skill-xyz-text">フロンテンド</div>
+                    </div>
+                    <div class="skilll-xyz-inner">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="skill-circle" cx="100" cy="100" r="80"></circle>
+                            <circle class="skill-circle-inner skill-xyz-ui" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="skill-xyz-percent">80%</div>
+                        <div class="skill-xyz-text">UI/UXデザイン</div>
+                    </div>
+                    <div class="skilll-xyz-inner">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="skill-circle" cx="100" cy="100" r="80"></circle>
+                            <circle class="skill-circle-inner skill-xyz-game" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="skill-xyz-percent">70%</div>
+                        <div class="skill-xyz-text">アプリ開発</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Skill Section End-->
+        <!--Work Section-->
+        <div class="main-work" id="work">
+            <div class="main-Section-heading">
+                <h2>Works</h2>
+            </div>
+            <div class="main-work-div">
+                <div class="service-container">
+                    <div class="services-box">
+                        <i class="fa-solid fa-palette"></i>
+                        <h3>UI/UXデザイン</h3>
+                        <p>私はデザイナーとして、数多くのウェブサイトをシンプルかつユーザーフレンドリーなデザインに仕上げてきました。
+                            特にUI/UX設計に強みを持っており、ユーザー視点を重視した使いやすいデザインを心がけています。
+                        </p>
+                        <a href="./LPproject.html"><button class="btn">もっと詳しく知る</button></a>
+                    </div>
+                    
+                    <div class="services-box">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>フロントエンド開発</h3>
+                        <p>2014年よりフロントエンド開発に携わっており、
+                            WordPressを活用したサイト構築はもちろんのこと、React／Next.js／Vue／Nuxt.js などのモダンなJavaScriptフレームワークを駆使し、要件に応じた高品質なUI・UXを実現してきました。</p>
+                        <a href="./Frontend.html"><button class="btn">もっと詳しく知る</button></a>
+                    </div>
+                    <div class="services-box">
+                        <i class="fa-solid fa-video"></i>
+                        <h3>バックエンド開発 </h3>
+                        <p>Node.js と Django を用いたバックエンドの構築を得意としており、要件に応じて柔軟かつスケーラブルなAPI設計やサーバーサイドロジックの実装を行ってきました。
+                            データベースには MySQL や PostgreSQL を主に使用ます。 </p>
+                        <a href=""><button class="btn">もっと詳しく知る</button></a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!--Work Section End-->
+        <!--Project Section-->
+        <div class="main-project" id="main">
+            <div class="main-Section-heading">
+                <h2>Project</h2>
+            </div>
+            <div class="main-project-inner">
+                <div class="main-project-div">
+
+                    <div class="main-project-div-inner">
+                        <div class="main-project-div-inner-img">
+                            <img src="assets/IMG/Non active/不動産.png" alt="">
+                        </div>
+                        <div class="main-project-div-inner-data">
+                            <div class="main-project-div-inner-data-h2">
+                                <h2>不動産サイト</h2>
+                            </div>
+                            <div class="main-project-div-inner-data-caption">
+                                <p>この不動産サイトは、ユーザーフレンドリーなインターフェースと高度な検索フィルターで知られており、ユーザーは希望する不動産をすばやく見つけることができます。 </p>
+                            </div>
+                            <div class="main-project-div-inner-data-btn">
+                                <a href="https://www.athome.co.jp/"><button>さらに詳しく</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-project-div-inner">
+                        <div class="main-project-div-inner-img">
+                            <img src="assets/IMG/hospital/Screenshot_1.png" alt="">
+                        </div>
+                        <div class="main-project-div-inner-data">
+                            <div class="main-project-div-inner-data-h2">
+                                <h2>病院サイト</h2>
+                            </div>
+                            <div class="main-project-div-inner-data-caption">
+                                <p>病院は患者中心のアプローチで良い評判を得ており、外来および入院患者の治療に包括的なサービスを提供することを示しています。</p>
+                            </div>
+                            <div class="main-project-div-inner-data-btn">
+                                <a href="https://hosp.juntendo.ac.jp/"><button>さらに詳しく</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-project-div-inner">
+                        <div class="main-project-div-inner-img">
+                            <img src="assets/IMG/ECsite/Screenshot_2.png" alt="">
+                        </div>
+                        <div class="main-project-div-inner-data">
+                            <div class="main-project-div-inner-data-h2">
+                                <h2>ECサイト</h2>
+                            </div>
+                            <div class="main-project-div-inner-data-caption">
+                                <p>すっきりとしたインターフェースと詳細な商品説明が提供されており、日本のファッション愛好家にとって素晴らしいショッピング体験を提供します。</p>
+                            </div>
+                            <div class="main-project-div-inner-data-btn">
+                                <a href="https://brandavenue.rakuten.co.jp/"><button>さらに詳しく</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!--Project Section End-->
+        <!--Contact Section-->
+        <div class="main-contact contact" id="contact">
+            <div class="main-contact-heading">
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <form class="main-contact-form" action="#">
+                <div class="input-div">
+                    <div class="input-div-icon"> <i class="fa-solid fa-user"></i></div><input type="text"
+                        placeholder="名前" class="input-name" id="input-name" required autocomplete="name">
+                </div>
+
+                <div class="input-div">
+                    <div class="input-div-icon"> <i class="fa-solid fa-envelope"></i></div> <input type="email"
+                        placeholder="メール" inputmode="email" class="input-email" id="input-email" required
+                        autocomplete="email">
+                </div>
+
+                <div class="input-div">
+                    <div class="input-div-icon"> <i class="fa-solid fa-phone"></i></div><input type="tel"
+                        placeholder="電話" inputmode="tel" class="input-phone" id="input-phone" required
+                        autocomplete="tel">
+                </div>
+
+                <div class="input-div">
+                    <div class="input-div-icon"> <i class="fa-solid fa-filter"></i></div> <input type="text"
+                        placeholder="主題" class="input-subject" id="input-subject" required>
+                </div>
+                <div class="input-div">
+                    <div class="input-div-icon"> <i class="fa-solid fa-message"></i></div><textarea name="input-message"
+                        id="input-message" rows="7" placeholder="メッセージ" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">提出する <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+        <!--Contact Section End-->
+    </main>
+    <!--Main Section End-->
+    <!--Footer Section-->
+    <footer class="footer">
+        <div class="footer_upper">
+            <div class="footer_upper_div">
+                <h3>プロジェクト</h3>
+                <a href="file:///E:/different/Ishida%20mei(Portfolio)/LPproject.html">UI/UX</a>
+                <a href="file:///E:/different/Ishida%20mei(Portfolio)/Frontend.html">Frontend</a>
+               
+            </div>
+            <div class="footer_upper_div">
+                <h3>About</h3>
+                <a href="#about">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#work">Works</a>
+                <a href="#main">Main Project</a>
+                <a href="#contact">Contact</a>
+            </div>
+           
+            <!-- <div class="footer_upper_div">
+                <h3>Get </h3>
+                
+                <div class="footer_upper_div_4_social">
+                    <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                  
+                    <a href="@Moss_0101"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                </div>
+            </div> -->
+        </div>
+        <hr>
+        <div class="footer_lower">
+            <!-- <div class="main-content-text-social footer-social-lower">
+                <a href="@Moss_0101"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                <a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div> -->
+            <div class="footer_lower_text">
+                <p>&copy;<a href="#"></a>石田芽衣 | All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Section End-->
+    <!--Java Scripts-->
+    <!--Icons Scripts-->
+    <script src="https://kit.fontawesome.com/cdca6417c3.js" crossorigin="anonymous"></script>
+    <!--Particle Scripts-->
+    <script src="assets/JS/particles.js"></script>
+    <script src="assets/JS/app.js"></script>
+    <!--SMTP Scripts-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!--Popup Message Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--Scroll Reveal Scripts-->
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <!--Typing Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!--Tilt Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <!--Main Java Scripts-->
+    <script src="assets/JS/script.js"></script>
+    <!--Java Scripts End-->
+</body>
+
+</html>
